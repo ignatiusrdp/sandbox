@@ -5,7 +5,7 @@ import HeaderElden from '@assets/elden-ring-new-header.webp';
 import EldenLogo from '@assets/eldenring_new.webp';
 import styles from '../styles/Elden.module.css'
 import { blurData } from 'utils/blur';
-import {  useLayoutEffect, useMemo, useRef, useState } from 'react';
+import {  useEffect, useMemo, useRef, useState } from 'react';
 
 const EldenRing: NextPage = () => {
     const firstElement = useRef<HTMLDivElement>(null);
@@ -18,7 +18,7 @@ const EldenRing: NextPage = () => {
             thirdElement,
         ]
     }, []);
-    useLayoutEffect(() => {
+    useEffect(() => {
         const callback = (entries: IntersectionObserverEntry[]) => {
             entries.forEach((entry: IntersectionObserverEntry, index) => {
                 if (entry.isIntersecting){
