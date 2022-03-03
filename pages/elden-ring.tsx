@@ -82,7 +82,7 @@ const EldenRing: NextPage = () => {
                     <p>
                         And now the guidance of grace will be brought to the Tarnished who were spurned by the grace of gold and exiled from the Lands Between. Ye dead who yet live, your grace long lost, follow the path to the Lands Between beyond the foggy sea to stand before the Elden Ring.
                     </p>
-                    <p style={{marginTop:"5em"}}> 
+                    <p style={{marginTop:"3em"}}> 
 
                         And become the Elden Lord.
                     </p>
