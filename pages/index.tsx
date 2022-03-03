@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
         <div className={styles.grid} style={{marginTop:"2em"}}>
           <a href="/elden-ring" className={styles.card}>
-            <h2>Intersection Observer Sandbox</h2>
+            <h2>Elden Ring Webpage Sandbox</h2>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
