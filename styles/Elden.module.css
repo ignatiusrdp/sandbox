@@ -1,0 +1,90 @@
+/* 
+Style Sheet
+
+*/
+.container {
+    position: relative;
+    min-height: 100vh;
+    background-image: url('/assets/Elden-ring-background-page.webp');
+    background-size: cover;
+}
+.section {
+    width: 100%;
+    padding: 2rem;
+}
+.banner-top {
+    position: relative;
+}
+
+.section__info {
+    margin: 0 20em
+}
+.section__info-logo {
+    text-align: center;
+    margin-top: -6.5rem;
+}
+.section--bg {
+    background-image: url('/assets/elden-ring-background-godfried.webp');
+    background-size: cover;
+}
+
+.section__key-features{
+    display: flex;
+    width: 90%;
+    margin: 2em auto;
+    flex-direction: column;
+}
+
+.section__feature {
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0 2em;
+}
+.section__feature:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.section__feature-detail {
+    margin: 1em 2em;
+    width: 60%;
+}
+
+.section__feature-detail h2 {
+    padding: .5em;
+    text-align: center;
+    width: 80%;
+    margin: 1em auto;
+    background-color: #c19d53;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section__info {
+        margin: 0 2em
+    
+    }
+    .section__feature-detail h2 {
+        font-size: 1em;
+    }
+    .section__feature-detail p {
+        font-size: .8em;
+    }
+    .section__info-logo {
+        margin-top: -7.5rem;
+    }
+    .section__feature {
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 2em;
+    }
+    .section__feature:nth-child(2) {
+        flex-direction: column;
+    }
+    .section__feature-detail {
+        width: 100%;
+    }
+}
