@@ -58,14 +58,14 @@ const EldenRing: NextPage = () => {
             
         </section>
         <section className={styles['section']} style={{marginTop:"-1rem"}}>
-            <div className={styles['section__info-logo']}>
+            <div className={`${styles['section__info-logo']} fade-in-fwd`}>
                 <Image 
                     src={EldenLogo}
                     placeholder="blur"
                     alt="elden-Logo"
                 />
             </div>
-            <div className={styles["section__info"]}>
+            <div className={`${styles["section__info"]} scale-in-ver-center`}>
                 <h1 style={{textAlign:'center', margin:'1em auto'}}>
                     The Golden Order has been broken.
                 </h1>
@@ -94,7 +94,7 @@ const EldenRing: NextPage = () => {
                 Key Features
             </h1>
             <div className={styles["section__key-features"]}>
-                <div ref={firstElement} className={`${styles[`section__feature`]}`} id="2">
+                <div ref={firstElement} className={`${styles[`section__feature`]}`}>
                     <div style={{position:"relative"}}>
                         <Image 
                             src="https://p325k7wa.twic.pics/high/elden-ring/elden-ring/00-page-setup/Elden-Ring-KF01.jpg?twic=v1/cover=1920/step=10/quality=80"
@@ -121,7 +121,7 @@ const EldenRing: NextPage = () => {
                         </p>
                 </div>
                 </div>
-                <div ref={secondElement} className={`${styles[`section__feature`]}`}>
+                <div ref={secondElement} className={`${styles[`section__feature`]} `}id="2">
                 <div style={{position:"relative"}}>
                         <Image 
                             src="https://p325k7wa.twic.pics/high/elden-ring/elden-ring/00-page-setup/Elden-Ring-KF02.jpg?twic=v1/cover=1920/step=10/quality=80"
